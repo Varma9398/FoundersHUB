@@ -880,5 +880,22 @@
             });
         });
     </script>
+    <script>
+    fetch('https://script.google.com/macros/s/AKfycbwCK5oLciAg-n3fc00t6yIGhehbkUxa0TMMj77c4fu8MRaWlnfylazPNgWkz4NylS7s4A/exec', {
+      method: 'POST',
+      mode: 'no-cors',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        event: 'pageview',
+        url: window.location.href,
+        referrer: document.referrer,
+        userAgent: navigator.userAgent,
+        language: navigator.language,
+        screenWidth: window.screen.width,
+        screenHeight: window.screen.height
+      })
+    });
+    </script>
+    <script defer src="https://vercel.com/analytics/script.js"></script>
 </body>
 </html>
