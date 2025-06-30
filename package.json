@@ -1,0 +1,25 @@
+{
+  "name": "foundershub",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Varma9398/FoundersHUB.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Varma9398/FoundersHUB/issues"
+  },
+  "homepage": "https://github.com/Varma9398/FoundersHUB#readme",
+  "description": "FoundersHUB - Where Passionate Builders Connect & Grow",
+  "devDependencies": {
+    "vite": "^5.0.0"
+  }
+}
