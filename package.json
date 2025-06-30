@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
@@ -17,9 +18,10 @@
   "bugs": {
     "url": "https://github.com/Varma9398/FoundersHUB/issues"
   },
-  "homepage": "https://github.com/Varma9398/FoundersHUB#readme",
+  "homepage": "https://varma9398.github.io/Founders/",
   "description": "FoundersHUB - Where Passionate Builders Connect & Grow",
   "devDependencies": {
+    "gh-pages": "^6.3.0",
     "vite": "^5.0.0",
     "vite-plugin-gh-pages": "^1.0.1"
   },
